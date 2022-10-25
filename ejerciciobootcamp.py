@@ -27,3 +27,16 @@ while num <= 5:
     print(numero)
     numero = numero + 1
 print("Terminado")
+#Caso do while no hay en py
+#caso de problema for
+
+print("""Para el bucle For, crea una variable numeroFor, 
+esta variable tendrá como valor 0 y su condición será que la variable sea igual o  menor que 3, 
+se irá incrementando en 1 su valor cada vez que se ejecute y 
+deberá mostrarse por pantalla. Hola herramineta para revisar numero mayores o menores """)
+print("Hola incementaremos un numero")
+numero = 0
+for numero in range(3):
+    numero += 1
+    print(numero)
+print("Programa Terminado")
